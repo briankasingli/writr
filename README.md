@@ -6,9 +6,11 @@ Group Projct. Created a CRUD specific App.
 Main Duties:
 
 Backend: 
-   Sinatra Skeleton Installation
-   Set Up: Sign-up, Login, Post, Comment, ERB initial
+   
+     Sinatra Skeleton Installation
+     Set Up: Sign-up, Login, Post, Comment, ERB initial
    
 Frontend:
-   Design
-   HTML5 / CSS
+   
+     Design
+     HTML5 / CSS
