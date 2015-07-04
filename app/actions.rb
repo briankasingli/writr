@@ -120,6 +120,10 @@ post '/notes' do
   if params[:text].empty?
     @error_message = "Please write something!"
     erb :'notes/new'
+    binding.pry
+  elsif /.*[<scri].*/.match(params[:text])
+    @error_message = "Your trying to inject a script!"
+    erb :'notes/new'
   else
     @note = Note.create(user_id: current_user.id, text: params[:text])
     redirect "/notes/#{@note.id}"
