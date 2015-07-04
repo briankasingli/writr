@@ -1,10 +1,16 @@
-Sinatra
+Writr - Sinatra App Project
 =============
 
-Brought to you by Lighthouse Labs
+Group Projct. Created a CRUD specific App.
 
-## Getting Started
+Main Duties:
 
-1. `bundle install`
-2. `shotgun -p 3000 -o 0.0.0.0`
-3. Visit `http://localhost:3000/` in your browser
+Backend: 
+   
+     Sinatra Skeleton Installation
+     Set Up: Sign-up, Login, Post, Comment, ERB initial
+   
+Frontend:
+   
+     Design
+     HTML5 / CSS
